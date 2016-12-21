@@ -122,7 +122,6 @@ defmodule NervesTest.Case do
         :string.str(path, tmp) != 0,
         do: :code.del_path(path)
   end
-
 end
 
 artifcat_dir = NervesTest.Case.tmp_path(".nerves/artifacts")

@@ -47,7 +47,7 @@ This declares that the contents of the folder at `config/rootfs-additions` will 
 
 ## Overwriting Files in the Root File System
 
-Any files in the `rootfs_additions` will overwrite those present in the underlying system. This can be useful if you want to change the contents of included files in the underlying Nerves system. Let's say, for example, that you want to change the behaviour of `erlinit`. You can include your own `erlinit.config`:
+Any files in the `rootfs_additions` setting will overwrite those present in the underlying system. This can be useful if you want to change the contents of included files in the underlying Nerves system. Let's say, for example, that you want to change the behaviour of `erlinit`. You can include your own `erlinit.config`:
 
 ```
 # config/rootfs-additions/etc/erlinit.config
